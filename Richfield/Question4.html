@@ -1,0 +1,63 @@
+~<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <style>
+    fieldset{
+        background-color: lightblue;
+        width: 400px;
+        height: 500px;
+       padding: 40px;
+    }
+    h1,h2,submit{
+        display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+    }
+   
+   </style>
+    <form >
+        <fieldset>
+    <h1> Lecturer Evaluation Form</h1>
+    <h2>Lecturer information</h2>
+    <label for="Name">Lecturer Name</label>
+    <input type="text"><br><br>
+    <label for="course">course Name</label>
+    <input type="text"><br><br>
+    <h2>Evaluation</h2>
+    <label for="Knowledge">Knowledge</label>
+    <select name="knowledge" id="level">
+    <option value="none">-select-</option>
+    <option value="Excallent">Exallent</option>
+    <option value="Good">Good</option>
+    <option value="Avarage">Avarage</option>
+    <option value="poor">Poor</option>
+</select><br><br>
+    <label for="Communication">Communication</label>
+    <select name="knowledge" id="level">
+        <option value="none">-select-</option>
+        <option value="Excallent">Exallent</option>
+        <option value="Good">Good</option>
+        <option value="Avarage">Avarage</option>
+        <option value="poor">Poor</option>
+    </select><br><br>
+    <label for="Organisation">Organisation</label>
+    <select name="knowledge" id="level">
+        <option value="none">-select-</option>
+        <option value="Excallent">Exallent</option>
+        <option value="Good">Good</option>
+        <option value="Avarage">Avarage</option>
+        <option value="poor">Poor</option>
+    </select><br><br>
+    <label for="feedback"> additional feedback: </label>
+    <textarea name="feedback" id="feedback" cols="20px" rows="2px"></textarea><br><br>
+    <input type="submit">
+</fieldset>
+</form>
+   
+</body>
+</html>
